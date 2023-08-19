@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Footer from './Footer';
 import Avatar from '../images/avatar.png';
+import projects from '../projects';
 
 const styles = {
   parent: {
@@ -42,7 +43,7 @@ export default function PortfolioContainer() {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <Home />;
+      return <Portfolio projects={projects} />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;

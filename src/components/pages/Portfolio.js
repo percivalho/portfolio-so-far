@@ -1,9 +1,11 @@
 import React from 'react';
+//import projects from '.../projects';
 
-export default function Home() {
+export default function Portfolio({projects}) {
+  console.log(projects);
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>Portfolio</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
@@ -16,6 +18,16 @@ export default function Home() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
+      <ul className="list-group">
+        {/* Here we use the map method to iterate through each user and return a new array of list items for each user */}
+        {projects.map((project) => (
+          <li className="list-group-item">
+            <p>{project.title}</p>
+            <img src={project.pic} />
+            {/*`${user.name.first} ${user.name.last} (${user.login.username})`*/}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
