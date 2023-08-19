@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/percivalho/portfolio-so-far/static/css/main.99e4cf39.css",
+    "main.js": "/percivalho/portfolio-so-far/static/js/main.1864d716.js",
+    "index.html": "/percivalho/portfolio-so-far/index.html",
+    "main.99e4cf39.css.map": "/percivalho/portfolio-so-far/static/css/main.99e4cf39.css.map",
+    "main.1864d716.js.map": "/percivalho/portfolio-so-far/static/js/main.1864d716.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99e4cf39.css",
+    "static/js/main.1864d716.js"
+  ]
+}
