@@ -34,6 +34,8 @@ const styles = {
   },
 };
 
+
+
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 

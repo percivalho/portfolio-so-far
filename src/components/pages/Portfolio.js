@@ -1,10 +1,17 @@
 import React from 'react';
 //import projects from '.../projects';
 
-export default function Portfolio({projects}) {
+const mainstyle = {
+  display: "flex",
+  flexDirection: "column",
+  minHeight: "80vh",
+  flex: 1,
+}
+
+export default function Portfolio({ projects }) {
   console.log(projects);
   return (
-    <div>
+    <div style={mainstyle}>
       <h1>Portfolio</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque

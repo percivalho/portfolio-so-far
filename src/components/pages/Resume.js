@@ -1,9 +1,15 @@
 import React from 'react';
 import resume from '../../Resume.txt'
+const mainstyle = {
+  display: "flex",
+  flexDirection: "column",
+  minHeight: "80vh",
+  flex: 1,
+}
 
 export default function Resume() {
   return (
-    <div>
+    <div style={mainstyle}>
       <h1>Resume</h1>
       <h2>Download my <a href={resume}>resume</a></h2>
       <b>Front-end Proficiencies:</b>

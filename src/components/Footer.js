@@ -5,11 +5,12 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     padding: '2%',
+    background: "#0096c7",
 };
 
 function Footer() {
     return (
-        <footer styles={styles}>
+        <footer style={styles}>
             <span>© 2023 Percival Ho</span>
         </footer>
     );

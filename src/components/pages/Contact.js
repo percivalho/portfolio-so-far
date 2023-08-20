@@ -2,7 +2,12 @@ import React, { useState } from 'react';
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../../utils/helpers';
 
-
+const mainstyle = {
+  display: "flex",
+  flexDirection: "column",
+  minHeight: "80vh",
+  flex: 1,
+}
 
 function Contact() {
 
@@ -46,7 +51,7 @@ function Contact() {
 
 
   return (
-    <div>
+    <div style={mainstyle}>
       <h1>Contact Me</h1>
       <form className="form">
         <div>

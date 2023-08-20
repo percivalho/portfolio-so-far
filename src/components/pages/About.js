@@ -1,8 +1,14 @@
 import React from 'react';
 
+const mainstyle = {
+  display: "flex",
+  flexDirection: "column",
+  minHeight: "80vh",
+  flex: 1,
+}
 export default function About() {
   return (
-    <div>
+    <div style={mainstyle}>
       <h1>About Me</h1>
       <p>I recently embarked on a transformative journey with the Web Development BootCamp at the University of Birmingham. This rigorous program offers an in-depth exploration of both front-end and back-end web technologies. My aim was to not only grasp the theoretical aspects but to immerse myself in practical applications, enabling me to craft responsive, dynamic, and user-centric websites.</p>
       <p>The curriculum spanned a gamut of essential topics, from the foundational HTML, CSS, and JavaScript to nuanced areas like responsive design, accessibility, performance optimization, and version control. Each project I undertook served as a canvas to apply classroom knowledge, but more importantly, they honed my problem-solving prowess and underscored the value of teamwork in software development.</p>
