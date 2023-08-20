@@ -1,0 +1,19 @@
+Name: Percival
+
+Front-end Proficiencies:
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- responsive design
+- bootstrap
+- React
+
+Back-end Proficiencies:
+- APIs
+- Node
+- Express
+- MySQL, Sequelize
+- MongDB, Mongoose
+- RESTful APIs
+- CRUD operations
