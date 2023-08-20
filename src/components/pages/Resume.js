@@ -5,6 +5,7 @@ const mainstyle = {
   flexDirection: "column",
   minHeight: "80vh",
   flex: 1,
+  padding: "5%",
 }
 
 export default function Resume() {
