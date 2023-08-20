@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // Here we import a helper function that will check if the email is valid
-import { checkPassword, validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 
 
@@ -14,14 +14,27 @@ function Contact() {
     // Getting the value and name of the input which triggered the change
     const { name, value } = e.target;
     setData({ ...data, [name]: value });
+    setErrorMessage('');
   };
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
     // Alert the user their first and last name, clear the inputs
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(data.email) || !data.message || !data.fullname) {
-      setErrorMessage('Email or username is invalid');
+    if (!data.message) {
+      setErrorMessage('message is required');
+      return
+    }
+    if (!data.fullname) {
+      setErrorMessage('Please input your name');
+      return
+    }
+    if (!data.email) {
+      setErrorMessage('Please input your email');
+      return
+    }
+    if (!validateEmail(data.email)) {
+      setErrorMessage('your email is invalid');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
