@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
-import Blog from './pages/Blog';
+import Blog from './pages/Resume';
 import Contact from './pages/Contact';
 import Footer from './Footer';
 import Avatar from '../images/avatar.png';
