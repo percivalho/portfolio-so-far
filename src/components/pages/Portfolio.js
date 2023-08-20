@@ -8,6 +8,25 @@ const mainstyle = {
   flex: 1,
 }
 
+const listGroupStyle = {
+  display: 'flex',
+  flexDirection: 'row',
+  flexWrap: 'wrap',
+  justifyContent: 'center',
+  alignItems: 'center',
+  padding: 0,
+  margin: '0 auto',
+};
+
+const listItemStyle = {
+  width: "40%",
+};
+
+const imgStyle = {
+  maxWidth: "100%",
+  height: "auto",
+};
+
 export default function Portfolio({ projects }) {
   console.log(projects);
   return (
@@ -25,12 +44,16 @@ export default function Portfolio({ projects }) {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
-      <ul className="list-group">
+      <ul className="list-group" style={listGroupStyle}>
         {/* Here we use the map method to iterate through each user and return a new array of list items for each user */}
         {projects.map((project) => (
-          <li className="list-group-item">
+          <li className="list-group-item" style={listItemStyle}>
             <p>{project.title}</p>
-            <img src={project.pic} />
+            <img
+              src={project.pic}
+              alt={project.title}
+              style={imgStyle}
+            />
             {/*`${user.name.first} ${user.name.last} (${user.login.username})`*/}
           </li>
         ))}
