@@ -84,7 +84,7 @@ The portfolio consists of 4 tabs.
 - Resume: my resume of front-end and back-end proficiencies, with a downloaded resume document.
 It also has my Github link, linkedin and facebook links.
 
-![offline](assets/indexDB.png)
+![portfolio](src/images/screenshot.png)
 
 
 ## Tests
