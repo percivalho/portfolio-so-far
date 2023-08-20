@@ -15,7 +15,7 @@ const styles = {
   h1: {
     display: "inline",
     fontSize: "2.5rem",
-    margin: 0,
+    paddingLeft: "5%",
   },
   avatar: {
     height: "auto",

@@ -34,7 +34,7 @@ const projects = [
         link: "https://jate-another-app-cbfa1ff02b72.herokuapp.com/",
     },
     {
-        title: "Technology Bloggin",
+        title: "Technology Blogging",
         git: "https://github.com/percivalho/technology-blogging.git",
         pic: project4,
         pich: project4a,
