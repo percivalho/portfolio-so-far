@@ -9,6 +9,36 @@ const mainstyle = {
   flex: 1,
 }
 
+const formStyle = {
+  display: "flex",
+  flexDirection: "column",
+  width: "100%",
+  maxWidth: "400px",
+  padding: 10,
+  margin: '0 auto',
+};
+
+const inputStyle = {
+  padding: "0.5em",
+  border: "1px solid #ccc",
+  borderRadius: "4px",
+  fontSize: "1em",
+};
+
+const buttonStyle = {
+  padding: "0.5em 1em",
+  background: "#0096c7",
+  color: "white",
+  border: "none",
+  borderRadius: "4px",
+  cursor: "pointer",
+};
+
+const errorStyle = {
+  color: "red",
+  marginTop: "1em",
+};
+
 function Contact() {
 
   const formData = { fullname: '', email: '', message: "" };
@@ -53,47 +83,45 @@ function Contact() {
   return (
     <div style={mainstyle}>
       <h1>Contact Me</h1>
-      <form className="form">
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            value={data.fullname}
-            name="fullname"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="fullname"
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input
-            value={data.email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="email"
-          />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            value={data.message}
-            name="message"
-            onChange={handleInputChange}
-            type="message"
-            placeholder="message"
-          />
-        </div>
-        <button type="button" onClick={handleFormSubmit}>
+      <form className="form" style={formStyle}>
+        <label htmlFor="name">Name:</label>
+        <input
+          value={data.fullname}
+          name="fullname"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="fullname"
+          style={inputStyle}
+        />
+        <label htmlFor="email">Email:</label>
+        <input
+          value={data.email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="email"
+          style={inputStyle}
+        />
+        <label htmlFor="message">Message:</label>
+        <textarea
+          value={data.message}
+          name="message"
+          onChange={handleInputChange}
+          type="message"
+          placeholder="message"
+          style={inputStyle}
+        />
+        {errorMessage && (
+          <div>
+            <p className="error-text" style={errorStyle}>{errorMessage}</p>
+          </div>
+        )}
+        < button type="button" onClick={handleFormSubmit} style={buttonStyle}>
           Submit
         </button>
       </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
-    </div>
+
+    </div >
   );
 }
 
