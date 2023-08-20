@@ -6,6 +6,7 @@ const mainstyle = {
   flexDirection: "column",
   minHeight: "80vh",
   flex: 1,
+  padding: "5%",
 }
 
 const listGroupStyle = {
@@ -28,33 +29,25 @@ const imgStyle = {
 };
 
 export default function Portfolio({ projects }) {
-  console.log(projects);
+  //console.log(projects);
   return (
     <div style={mainstyle}>
       <h1>Portfolio</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
       <ul className="list-group" style={listGroupStyle}>
         {/* Here we use the map method to iterate through each user and return a new array of list items for each user */}
         {projects.map((project) => (
           <li className="list-group-item" style={listItemStyle}>
-            <p>{project.title}</p>
-            <img
+            <h2>{project.title}</h2>
+            <a href={project.link}><img
               src={project.pic}
               alt={project.title}
               style={imgStyle}
-            />
+              onMouseOver={e => e.currentTarget.src = project.pich}
+              onMouseOut={e => e.currentTarget.src = project.pic}
+            /></a>
             {/*`${user.name.first} ${user.name.last} (${user.login.username})`*/}
+            <a href={project.git}><p>Github</p></a>
+            <a href={project.link}><p>Website</p></a>
           </li>
         ))}
       </ul>
