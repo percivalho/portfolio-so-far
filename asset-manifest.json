@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/percivalho/portfolio-so-far/static/css/main.99e4cf39.css",
-    "main.js": "/percivalho/portfolio-so-far/static/js/main.004f3f97.js",
-    "static/media/weather.png": "/percivalho/portfolio-so-far/static/media/weather.773d347b6d600cc27ef0.png",
-    "static/media/musicportal.png": "/percivalho/portfolio-so-far/static/media/musicportal.d677a2af522a3eb3cece.png",
-    "static/media/weatherb.png": "/percivalho/portfolio-so-far/static/media/weatherb.de4f77b4d46e8a14db49.png",
-    "static/media/musicportalb.png": "/percivalho/portfolio-so-far/static/media/musicportalb.e1a22b9bbffbbceea3c7.png",
-    "static/media/picturesque.png": "/percivalho/portfolio-so-far/static/media/picturesque.eb5cdb7f7444ee2d60d4.png",
-    "static/media/picturesqueb.png": "/percivalho/portfolio-so-far/static/media/picturesqueb.2016f67a1d6986bf5a92.png",
-    "static/media/avatar.png": "/percivalho/portfolio-so-far/static/media/avatar.ec1290777a66bf13196b.png",
-    "static/media/techblog.png": "/percivalho/portfolio-so-far/static/media/techblog.06ff1c1079f3a46d4a59.png",
-    "static/media/techblogb.png": "/percivalho/portfolio-so-far/static/media/techblogb.f04f85d46625868dfd77.png",
-    "static/media/note.png": "/percivalho/portfolio-so-far/static/media/note.d7fe2a77487d32ad4119.png",
-    "static/media/noteb.png": "/percivalho/portfolio-so-far/static/media/noteb.c6ad4c6bd995ee576777.png",
-    "static/media/jate.png": "/percivalho/portfolio-so-far/static/media/jate.19d04d64196d6de96016.png",
-    "static/media/jateb.png": "/percivalho/portfolio-so-far/static/media/jateb.7f6c674b377ca8e9a775.png",
-    "static/media/linkedin.png": "/percivalho/portfolio-so-far/static/media/linkedin.131b233a651212306d06.png",
-    "static/media/meta.png": "/percivalho/portfolio-so-far/static/media/meta.b2b8de37b43160ea179e.png",
-    "static/media/github.png": "/percivalho/portfolio-so-far/static/media/github.db032c97d1a71b9d1437.png",
-    "index.html": "/percivalho/portfolio-so-far/index.html",
-    "static/media/Resume.txt": "/percivalho/portfolio-so-far/static/media/Resume.1f47e14cae5d4883210c.txt",
-    "main.99e4cf39.css.map": "/percivalho/portfolio-so-far/static/css/main.99e4cf39.css.map",
-    "main.004f3f97.js.map": "/percivalho/portfolio-so-far/static/js/main.004f3f97.js.map"
+    "main.css": "/portfolio-so-far/static/css/main.99e4cf39.css",
+    "main.js": "/portfolio-so-far/static/js/main.c5b541b8.js",
+    "static/media/weather.png": "/portfolio-so-far/static/media/weather.773d347b6d600cc27ef0.png",
+    "static/media/musicportal.png": "/portfolio-so-far/static/media/musicportal.d677a2af522a3eb3cece.png",
+    "static/media/weatherb.png": "/portfolio-so-far/static/media/weatherb.de4f77b4d46e8a14db49.png",
+    "static/media/musicportalb.png": "/portfolio-so-far/static/media/musicportalb.e1a22b9bbffbbceea3c7.png",
+    "static/media/picturesque.png": "/portfolio-so-far/static/media/picturesque.eb5cdb7f7444ee2d60d4.png",
+    "static/media/picturesqueb.png": "/portfolio-so-far/static/media/picturesqueb.2016f67a1d6986bf5a92.png",
+    "static/media/avatar.png": "/portfolio-so-far/static/media/avatar.ec1290777a66bf13196b.png",
+    "static/media/techblog.png": "/portfolio-so-far/static/media/techblog.06ff1c1079f3a46d4a59.png",
+    "static/media/techblogb.png": "/portfolio-so-far/static/media/techblogb.f04f85d46625868dfd77.png",
+    "static/media/note.png": "/portfolio-so-far/static/media/note.d7fe2a77487d32ad4119.png",
+    "static/media/noteb.png": "/portfolio-so-far/static/media/noteb.c6ad4c6bd995ee576777.png",
+    "static/media/jate.png": "/portfolio-so-far/static/media/jate.19d04d64196d6de96016.png",
+    "static/media/jateb.png": "/portfolio-so-far/static/media/jateb.7f6c674b377ca8e9a775.png",
+    "static/media/linkedin.png": "/portfolio-so-far/static/media/linkedin.131b233a651212306d06.png",
+    "static/media/meta.png": "/portfolio-so-far/static/media/meta.b2b8de37b43160ea179e.png",
+    "static/media/github.png": "/portfolio-so-far/static/media/github.db032c97d1a71b9d1437.png",
+    "index.html": "/portfolio-so-far/index.html",
+    "static/media/Resume.txt": "/portfolio-so-far/static/media/Resume.1f47e14cae5d4883210c.txt",
+    "main.99e4cf39.css.map": "/portfolio-so-far/static/css/main.99e4cf39.css.map",
+    "main.c5b541b8.js.map": "/portfolio-so-far/static/js/main.c5b541b8.js.map"
   },
   "entrypoints": [
     "static/css/main.99e4cf39.css",
-    "static/js/main.004f3f97.js"
+    "static/js/main.c5b541b8.js"
   ]
 }
