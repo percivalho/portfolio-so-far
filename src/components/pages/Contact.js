@@ -75,7 +75,7 @@ function Contact() {
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
-    //alert(`Hello ${data.firstName} ${data.lastName}`);
+    alert(`Thank you for your message, ${data.fullName}`);
     setData(formData);
   };
 

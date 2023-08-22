@@ -58,21 +58,24 @@ that would install the following package:
 
 This application is built using the following technologies:
 
+- **HTML**: It is the standard markup language used to create and design the structure of web pages.
+- **CSS**: It is a stylesheet language used to define the presentation and design of web pages, including layout, colors, and fonts.
 - **JavaScript**: Programming language for adding interactivity and dynamic content.
 - **NodeJS**: an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a web browser.
 - **ReactJS**:  It is a JavaScript library developed by Facebook for building dynamic, component-based user interfaces.
 
 ## Usage
 
-The user should clone the repository and run 'npm i' to install the following: 
+The user needs to clone the repository and run 'npm i' to install the following: 
 
 - React
 
 for localhost:
-then run 'npm run start:dev' to invoke the backend.
+then run 'npm run start' to start the app.
 
-for heroku app, please go to :
-https://jate-another-app-cbfa1ff02b72.herokuapp.com/
+Alternatively, for git page:
+
+https://percivalho.github.io/portfolio-so-far/
 
 
 ## Features
@@ -90,15 +93,18 @@ It also has my Github link, linkedin and facebook links.
 ## Tests
 
 Testing done on:
-
+1. displaying of each page properly.
+2. download the resume successfully.
+3. validation checking on contact form
+4. all projects link and effects.
 
 
 ## Resources
 
 ```md
-Link to Heroku App:
+Link to GitHub page:
 
-https://jate-another-app-cbfa1ff02b72.herokuapp.com/
+https://percivalho.github.io/portfolio-so-far/
 
 Link to GitHub repo:
 
